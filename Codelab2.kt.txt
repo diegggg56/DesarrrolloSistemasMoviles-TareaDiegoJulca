@@ -1,0 +1,34 @@
+
+fun main() {
+    val nextMeeting = "Next meeting is:"
+    val date = "January 1"
+    val reminder = nextMeeting + date
+    println(reminder)
+}
+
+fun main() {
+    val nextMeeting = "Next meeting is: "
+    val date = "January 1"
+    val reminder = nextMeeting + date
+    println(reminder)
+}
+fun main() {
+    val nextMeeting = "Next meeting is: "
+    val date = "January 1"
+    val reminder = nextMeeting + date + " at work"
+    println(reminder)
+}
+
+fun main() {
+    val notificationsEnabled: Boolean = false
+    println("Are notifications enabled? " + notificationsEnabled)
+}
+fun main() {
+    // Create a variable for the number of unread messages.
+    var count = 10
+    println("You have $count unread messages.")
+
+    // Decrease the number of messages by 1.
+    count--
+    println("You have $count unread messages.")
+}
